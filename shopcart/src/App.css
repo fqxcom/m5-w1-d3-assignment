@@ -1,0 +1,74 @@
+/* App.js */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content:space-between
+}
+.title span {
+  font-size: 1em;
+}
+.product-info {
+  align-items: center;
+  align-content: center;
+}
+.product-desc {
+  font-size:1.5em;
+}
+.product {
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+}
+.product-qty {
+  width:2em;
+  text-align: center;
+}
+
+/* displayProducts */
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+.product .displayQty {
+  margin-left: 2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.product .displayQty span {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+/* navbar */
+nav {
+  background-color: rgb(113, 197, 249);
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.logo span {
+  margin-left: 10px;
+ margin-right: 2px;
+}
+
+.cart {
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+/* login */
+
+input {
+  width:20rem;
+}
